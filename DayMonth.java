@@ -19,9 +19,9 @@ public class DayMonth {
                 int year = scanner.nextInt();
 
                 if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
-                    System.out.println("Tháng 2 có 29 ngày.");
+                    System.out.println("Tháng 2 có 29 ngày. Năm " + year + " là năm nhuận" );
                 } else {
-                    System.out.println("Tháng 2 có 28 ngày.");
+                    System.out.println("Tháng 2 có 28 ngày. Năm " + year + " không là năm nhuận");
                 }
                 break;
         }
